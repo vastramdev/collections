@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vastram Collections | Sarees from India in Johns Creek, GA</title>
+  <meta name="description" content="Vastram Collections brings handpicked sarees from India to Georgia. Shop silk, cotton and festive sarees online, or visit our pop-up stalls around Johns Creek and Cumming, GA.">
+  <link rel="canonical" href="https://vastramusa.com/">
+  <meta name="theme-color" content="#4a1320">
+
+  <!-- Link previews (WhatsApp, Instagram, Facebook, iMessage) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vastram Collections">
+  <meta property="og:title" content="Vastram Collections — Sarees from India">
+  <meta property="og:description" content="Handpicked sarees from India, for every celebration. Shop online or visit our pop-ups in Georgia.">
+  <meta property="og:url" content="https://vastramusa.com/">
+  <meta property="og:image" content="https://vastramusa.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vastram Collections">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preload" as="image" href="images/hero.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Vastram Collections",
+    "url": "https://vastramusa.com/",
+    "email": "vastramatlanta@gmail.com",
+    "image": "https://vastramusa.com/images/og-image.jpg",
+    "areaServed": "US",
+    "address": { "@type": "PostalAddress", "addressLocality": "Johns Creek", "addressRegion": "GA", "addressCountry": "US" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="./">Vastram <span>Collections</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span> Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="care.html">Care &amp; Draping</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- PHOTO: replace images/hero.jpg (landscape, ~1600×1000) -->
+      <img class="hero__img" src="images/hero.jpg" alt="Placeholder: a draped saree in rich colours" width="1600" height="1000" fetchpriority="high">
+      <div class="container hero__content">
+        <span class="eyebrow">Sarees from India · Johns Creek, GA</span>
+        <h1 id="hero-title" data-text="shopName">Vastram Collections</h1>
+        <p class="hero__tagline" data-text="tagline">Handpicked sarees from India, for every celebration.</p>
+        <div class="btn-row">
+          <a class="btn btn--gold" href="contact.html" data-link="shop" data-soon-label="Shop opening soon — ask us">Shop the collection</a>
+          <a class="btn btn--outline-light" href="#collections">See collections</a>
+        </div>
+      </div>
+    </section>
+    <div class="zari" role="presentation"></div>
+
+    <section id="collections" class="section" aria-labelledby="collections-title">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Collections</span>
+          <h2 id="collections-title">Find your drape</h2>
+          <p>Browse by collection. Each one opens in our online store, where you'll see every saree currently available.</p>
+        </div>
+        <ul id="collections-grid" class="cards">
+          <!-- Cards are built from the "collections" list in site-config.js -->
+        </ul>
+        <noscript><p>Please enable JavaScript to see our collections, or <a href="contact.html">contact us</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="story-title">
+      <div class="container split">
+        <!-- PHOTO: replace images/about.jpg (portrait, ~1000×1250) -->
+        <img src="images/about.jpg" alt="Placeholder: sarees folded and stacked, showing their borders" width="1000" height="1250" loading="lazy" decoding="async">
+        <div>
+          <span class="eyebrow">Our story</span>
+          <h2 id="story-title">From India's looms to your celebrations</h2>
+          <p data-text="storyTeaser">Vastram Collections brings sarees from India to Georgia — chosen one at a time for their weave, colour and drape.</p>
+          <a class="btn btn--outline" href="about.html">Read our story</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section section--dark" aria-labelledby="events-title" hidden>
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Come see us</span>
+          <h2 id="events-title">Upcoming pop-ups &amp; stalls</h2>
+          <p>Touch the fabric, see the colours in person, and get help choosing. We take card, Zelle and cash.</p>
+        </div>
+        <ul id="events-list" class="events"></ul>
+      </div>
+    </section>
+
+    <section class="section cta" aria-labelledby="cta-title">
+      <div class="container">
+        <span class="eyebrow">Stay in touch</span>
+        <h2 id="cta-title">See new arrivals first</h2>
+        <p>We post new sarees and pop-up dates on Instagram. Have a question about a colour, fabric or blouse? Message us on WhatsApp.</p>
+        <div class="btn-row">
+          <a class="btn" href="#" data-link="instagram" data-requires="instagram">Follow on Instagram</a>
+          <a class="btn btn--outline" href="#" data-link="whatsapp" data-requires="whatsapp">Chat on WhatsApp</a>
+          <a class="btn btn--outline" href="mailto:vastramatlanta@gmail.com" data-link="email">Email us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="zari" role="presentation"></div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Vastram Collections</h2>
+          <p data-text="tagline">Handpicked sarees from India, for every celebration.</p>
+          <p data-requires="pickupArea">Local pickup in <span data-text="pickupArea">Johns Creek, GA</span></p>
+        </div>
+        <nav aria-label="Footer">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="contact.html" data-link="shop" data-soon-label="Online store (opening soon)">Online store</a></li>
+            <li><a href="about.html">Our story</a></li>
+            <li><a href="care.html">Care &amp; draping</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:vastramatlanta@gmail.com" data-link="email" data-text="email">vastramatlanta@gmail.com</a></li>
+            <li data-requires="whatsapp"><a href="#" data-link="whatsapp">WhatsApp</a></li>
+            <li data-requires="instagram"><a href="#" data-link="instagram">Instagram <span data-text="instagramHandle"></span></a></li>
+            <li data-requires="facebook"><a href="#" data-link="facebook">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; <span data-text="year">2026</span> <span data-text="legalName">Vastram Collections LLC</span>. Sarees imported from India.</p>
+    </div>
+  </footer>
+
+  <script src="site-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
