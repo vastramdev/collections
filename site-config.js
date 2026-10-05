@@ -15,7 +15,7 @@ window.SITE_CONFIG = {
 
   /* ---------- Brand ---------- */
   shopName: "Vastram Collections",
-  legalName: "Vastram Collections LLC", // TODO: confirm exact legal name of the LLC (shown in footer)
+  legalName: "Vastram Collections",
   tagline: "Directly from weavers to you.",
 
   // Short teaser on the home page (1–2 sentences).
