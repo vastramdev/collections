@@ -92,7 +92,7 @@ window.SITE_CONFIG = {
   shippingRegion: "the United States",
   shippingCost: "Shipping is a flat $15.99 per order.",
   shippingTime: "Orders usually arrive within 3–5 business days.",
-  returnPolicy: "All sales are final — we don't accept returns or exchanges. If you have any questions about a saree, please message us before you order and we'll gladly send more photos or details.",
+  returnPolicy: "All sales are final — we don't accept returns or exchanges. If you have any questions about a saree, please message us before you order and we'll gladly send more photos or details. If your saree arrives damaged, email us within 48 hours of delivery with photos of the damage and the packaging, and we'll make it right.",
 
   /* ---------- Upcoming pop-ups & stalls ---------- */
   // Add one block per event. Past events disappear automatically the day after.
