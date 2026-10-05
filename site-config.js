@@ -16,7 +16,7 @@ window.SITE_CONFIG = {
   /* ---------- Brand ---------- */
   shopName: "Vastram Collections",
   legalName: "Vastram Collections",
-  tagline: "Directly from weavers to you.",
+  tagline: "Handpicked sarees, straight from India's weavers to you.",
 
   // Short teaser on the home page (1–2 sentences).
   storyTeaser: "We work directly with weavers in India to bring their sarees to you — no middlemen, just beautiful handwork and fair prices for the artisans who make it.",
