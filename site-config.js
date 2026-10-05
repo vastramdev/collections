@@ -54,10 +54,10 @@ window.SITE_CONFIG = {
       squareUrl: "" // TODO: Square category URL
     },
     {
-      name: "Benaras Silk Sarees",
+      name: "Banarasi Silk Sarees",
       description: "Silks from Varanasi, known for their intricate woven brocade.",
       image: "images/collection-3.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the Benaras silk sarees collection", // TODO: describe your photo
+      imageAlt: "Placeholder image for the Banarasi silk sarees collection", // TODO: describe your photo
       squareUrl: "" // TODO: Square category URL
     },
     {
@@ -69,7 +69,7 @@ window.SITE_CONFIG = {
     },
     {
       name: "Half Sarees",
-      description: "Langa voni sets for festivals, functions and coming-of-age celebrations.",
+      description: "Langa voni (pavadai davani) sets for festivals, functions and coming-of-age celebrations.",
       image: "images/collection-5.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the half sarees collection", // TODO: describe your photo
       squareUrl: "" // TODO: Square category URL
