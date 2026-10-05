@@ -16,7 +16,7 @@ window.SITE_CONFIG = {
   /* ---------- Brand ---------- */
   shopName: "Vastram Collections",
   legalName: "Vastram Collections LLC", // TODO: confirm exact legal name of the LLC (shown in footer)
-  tagline: "Handpicked sarees from India, for every celebration.", // TODO: placeholder tagline — replace with yours
+  tagline: "Directly from weavers to you.",
 
   // Short teaser on the home page (1–2 sentences).
   storyTeaser: "Vastram Collections brings sarees from India to Georgia — chosen one at a time for their weave, colour and drape.", // TODO: placeholder — replace with your own words
