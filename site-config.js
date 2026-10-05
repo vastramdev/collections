@@ -31,7 +31,7 @@ window.SITE_CONFIG = {
   /* ---------- Online store (Square) ---------- */
   // Your Square Online store home page, e.g. "https://vastramcollections.square.site"
   // While this is "", every "Shop" button points to the Contact page instead.
-  squareStoreUrl: "", // TODO: add your Square Online store URL
+  squareStoreUrl: "https://vastramusa.square.site/",
 
   // One entry per collection card on the home page.
   //  - name / description: what visitors see
@@ -44,42 +44,42 @@ window.SITE_CONFIG = {
       description: "Rich silks with classic borders for weddings, festivals and family celebrations.",
       image: "images/collection-1.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the silk sarees collection", // TODO: describe your photo
-      squareUrl: "" // TODO: Square category URL
+      squareUrl: "https://vastramusa.square.site/shop/silk-sarees/EMB3WMXEXNX32VGND4QKDD27"
     },
     {
       name: "Soft Silk Sarees",
       description: "Lightweight silks that drape easily and stay comfortable all day.",
       image: "images/collection-2.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the soft silk sarees collection", // TODO: describe your photo
-      squareUrl: "" // TODO: Square category URL
+      squareUrl: "https://vastramusa.square.site/shop/soft-silk-sarees/CA4C6P63QZF4DARALWMONTVD"
     },
     {
       name: "Banarasi Silk Sarees",
       description: "Silks from Varanasi, known for their intricate woven brocade.",
       image: "images/collection-3.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the Banarasi silk sarees collection", // TODO: describe your photo
-      squareUrl: "" // TODO: Square category URL
+      squareUrl: "https://vastramusa.square.site/shop/banarasi-silk-sarees/GIT67QA3TM2V6HSCLSQM4QQ6"
     },
     {
       name: "Silk Cotton Sarees",
       description: "The sheen of silk with the ease of cotton, for work, poojas and everyday occasions.",
       image: "images/collection-4.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the silk cotton sarees collection", // TODO: describe your photo
-      squareUrl: "" // TODO: Square category URL
+      squareUrl: "https://vastramusa.square.site/shop/silk-cotton/2EOOSOFPVNGTQ5IGWRMBTURX"
     },
     {
       name: "Half Sarees",
       description: "Langa voni (pavadai davani) sets for festivals, functions and coming-of-age celebrations.",
       image: "images/collection-5.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the half sarees collection", // TODO: describe your photo
-      squareUrl: "" // TODO: Square category URL
+      squareUrl: "https://vastramusa.square.site/shop/half-sarees/BQ7RB32CPGR4DJZDY5HVRVJG"
     },
     {
       name: "Men's Dhotis, Kurtas & Shirts",
       description: "Traditional wear for him, ready for festivals, weddings and family functions.",
       image: "images/collection-6.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the men's dhotis, kurtas and shirts collection", // TODO: describe your photo
-      squareUrl: "" // TODO: Square category URL
+      squareUrl: "https://vastramusa.square.site/shop/men/LI43L7DGUOBH4N2UJVWQXNU2"
     }
   ],
 
