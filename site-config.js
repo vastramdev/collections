@@ -19,7 +19,7 @@ window.SITE_CONFIG = {
   tagline: "Directly from weavers to you.",
 
   // Short teaser on the home page (1–2 sentences).
-  storyTeaser: "Vastram Collections brings sarees from India to Georgia — chosen one at a time for their weave, colour and drape.", // TODO: placeholder — replace with your own words
+  storyTeaser: "We work directly with weavers in India to bring their sarees to you — no middlemen, just beautiful handwork and fair prices for the artisans who make it.",
 
   // Full story on the About page. Each item in the list becomes its own paragraph.
   story: [
