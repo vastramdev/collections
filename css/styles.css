@@ -186,7 +186,7 @@ a:hover { color: var(--maroon-deep); }
 .cards {
   list-style: none; margin: 0; padding: 0;
   display: grid; gap: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
 }
 .card {
   background: var(--white); border-radius: var(--radius); overflow: hidden;

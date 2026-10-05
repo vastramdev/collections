@@ -40,31 +40,45 @@ window.SITE_CONFIG = {
   //  - squareUrl: link to the matching category page in your Square store ("" = use squareStoreUrl)
   collections: [
     {
-      name: "Silk Sarees", // TODO: placeholder collection
-      description: "Rich silks for weddings, festivals and family celebrations.",
-      image: "images/collection-1.jpg",
-      imageAlt: "Placeholder image for the silk sarees collection",
+      name: "Silk Sarees",
+      description: "Rich silks with classic borders for weddings, festivals and family celebrations.",
+      image: "images/collection-1.jpg", // TODO: replace photo
+      imageAlt: "Placeholder image for the silk sarees collection", // TODO: describe your photo
       squareUrl: "" // TODO: Square category URL
     },
     {
-      name: "Cotton Sarees", // TODO: placeholder collection
-      description: "Light, breathable weaves for everyday elegance.",
-      image: "images/collection-2.jpg",
-      imageAlt: "Placeholder image for the cotton sarees collection",
+      name: "Soft Silk Sarees",
+      description: "Lightweight silks that drape easily and stay comfortable all day.",
+      image: "images/collection-2.jpg", // TODO: replace photo
+      imageAlt: "Placeholder image for the soft silk sarees collection", // TODO: describe your photo
       squareUrl: "" // TODO: Square category URL
     },
     {
-      name: "Party Wear", // TODO: placeholder collection
-      description: "Statement drapes for receptions, sangeets and evenings out.",
-      image: "images/collection-3.jpg",
-      imageAlt: "Placeholder image for the party wear collection",
+      name: "Benaras Silk Sarees",
+      description: "Silks from Varanasi, known for their intricate woven brocade.",
+      image: "images/collection-3.jpg", // TODO: replace photo
+      imageAlt: "Placeholder image for the Benaras silk sarees collection", // TODO: describe your photo
       squareUrl: "" // TODO: Square category URL
     },
     {
-      name: "Festive Picks", // TODO: placeholder collection
-      description: "Seasonal favourites for Diwali, Pongal and Navratri.",
-      image: "images/collection-4.jpg",
-      imageAlt: "Placeholder image for the festive picks collection",
+      name: "Silk Cotton Sarees",
+      description: "The sheen of silk with the ease of cotton, for work, poojas and everyday occasions.",
+      image: "images/collection-4.jpg", // TODO: replace photo
+      imageAlt: "Placeholder image for the silk cotton sarees collection", // TODO: describe your photo
+      squareUrl: "" // TODO: Square category URL
+    },
+    {
+      name: "Half Sarees",
+      description: "Langa voni sets for festivals, functions and coming-of-age celebrations.",
+      image: "images/collection-5.jpg", // TODO: replace photo
+      imageAlt: "Placeholder image for the half sarees collection", // TODO: describe your photo
+      squareUrl: "" // TODO: Square category URL
+    },
+    {
+      name: "Men's Dhotis, Kurtas & Shirts",
+      description: "Traditional wear for him, ready for festivals, weddings and family functions.",
+      image: "images/collection-6.jpg", // TODO: replace photo
+      imageAlt: "Placeholder image for the men's dhotis, kurtas and shirts collection", // TODO: describe your photo
       squareUrl: "" // TODO: Square category URL
     }
   ],

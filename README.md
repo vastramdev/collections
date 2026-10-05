@@ -35,7 +35,7 @@ Every placeholder is labeled **PLACEHOLDER** on the image. Replace each file wit
 | File | Used for | Shape / size |
 | --- | --- | --- |
 | `hero.jpg` | Big home-page banner | Landscape, ~1600×1000. Keep the bottom-left area simple, because text sits there. |
-| `collection-1.jpg` … `collection-4.jpg` | Collection cards | Portrait 4:5, ~800×1000 |
+| `collection-1.jpg` … `collection-6.jpg` | Collection cards (in the order listed in `site-config.js`) | Portrait 4:5, ~800×1000 |
 | `about.jpg` | Our Story (home + About page) | Portrait 4:5, ~1000×1250 |
 | `og-image.jpg` | Link preview on WhatsApp/Instagram/Facebook | Exactly 1200×630, with your logo or best saree photo |
 | `apple-touch-icon.png` | iPhone home-screen icon | 180×180 |
