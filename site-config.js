@@ -90,9 +90,9 @@ window.SITE_CONFIG = {
 
   /* ---------- Shipping & policies (used on the FAQ page) ---------- */
   shippingRegion: "the United States",
-  shippingCost: "TODO: shipping cost / free-shipping threshold (placeholder)",
-  shippingTime: "TODO: typical processing and delivery time (placeholder)",
-  returnPolicy: "TODO: return / exchange policy (placeholder) — e.g. how many days, condition of the saree, who pays return shipping.",
+  shippingCost: "Shipping is a flat $15.99 per order.",
+  shippingTime: "Orders usually arrive within 3–5 business days.",
+  returnPolicy: "All sales are final — we don't accept returns or exchanges. If you have any questions about a saree, please message us before you order and we'll gladly send more photos or details.",
 
   /* ---------- Upcoming pop-ups & stalls ---------- */
   // Add one block per event. Past events disappear automatically the day after.
