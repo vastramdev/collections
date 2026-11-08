@@ -20,7 +20,7 @@
   <meta property="og:image:alt" content="Vastram Collections">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-192.png" sizes="192x192" type="image/png">
   <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
@@ -28,7 +28,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="preload" as="image" href="images/hero.jpg">
 
   <script type="application/ld+json">
   {
@@ -38,6 +37,7 @@
     "url": "https://vastramusa.com/",
     "email": "vastramatlanta@gmail.com",
     "image": "https://vastramusa.com/images/og-image.jpg",
+    "logo": "https://vastramusa.com/images/logo.webp",
     "areaServed": "US",
     "address": { "@type": "PostalAddress", "addressLocality": "Johns Creek", "addressRegion": "GA", "addressCountry": "US" }
   }
@@ -48,7 +48,7 @@
 
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="./">Vastram <span>Collections</span></a>
+      <a class="brand" href="./"><img src="images/lotus-mark.webp" alt="" width="44" height="44"> Vastram <span>Collections</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="nav-toggle__bars" aria-hidden="true"></span> Menu
       </button>
@@ -67,15 +67,16 @@
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <!-- PHOTO: replace images/hero.jpg (landscape, ~1600×1000) -->
-      <img class="hero__img" src="images/hero.jpg" alt="Placeholder: a draped saree in rich colours" width="1600" height="1000" fetchpriority="high">
       <div class="container hero__content">
-        <span class="eyebrow">Sarees from India · Johns Creek, GA</span>
-        <h1 id="hero-title" data-text="shopName">Vastram Collections</h1>
-        <p class="hero__tagline" data-text="tagline">Handpicked sarees, straight from India's weavers to you.</p>
-        <div class="btn-row">
-          <a class="btn btn--gold" href="shop.html">Shop the collection</a>
-          <a class="btn btn--outline-light" href="#collections">See collections</a>
+        <img class="hero__logo" src="images/logo.webp" alt="Vastram Collections logo: a maroon and gold silk lotus" width="640" height="640" fetchpriority="high">
+        <div class="hero__text">
+          <span class="eyebrow">Sarees from India · Johns Creek, GA</span>
+          <h1 id="hero-title" data-text="shopName">Vastram Collections</h1>
+          <p class="hero__tagline" data-text="tagline">Handpicked sarees, straight from India's weavers to you.</p>
+          <div class="btn-row">
+            <a class="btn btn--gold" href="shop.html">Shop the collection</a>
+            <a class="btn btn--outline-light" href="#collections">See collections</a>
+          </div>
         </div>
       </div>
     </section>
@@ -151,6 +152,7 @@
     <div class="container">
       <div class="footer-grid">
         <div>
+          <img class="footer-logo" src="images/lotus-mark.webp" alt="" width="72" height="72" loading="lazy">
           <h2>Vastram Collections</h2>
           <p data-text="tagline">Handpicked sarees, straight from India's weavers to you.</p>
           <p data-requires="pickupArea">Local pickup in <span data-text="pickupArea">Johns Creek, GA</span></p>

@@ -52,18 +52,19 @@ In Square Online, open your site, click into a category on the live store, and c
 
 ## Photos to replace (`images/`)
 
-Every placeholder is labeled **PLACEHOLDER** on the image. Replace each file with a photo of **the same filename**, or change the filename in `site-config.js` / the HTML.
+The logo images are made from the Vastram Collections logo. The collection and Our Story photos are still placeholders, labeled **PLACEHOLDER** on the image. Replace each file with a photo of **the same filename**, or change the filename in `site-config.js` / the HTML.
 
 | File | Used for | Shape / size |
 | --- | --- | --- |
-| `hero.jpg` | Big home-page banner | Landscape, ~1600×1000. Keep the bottom-left area simple, because text sits there. |
+| `logo.webp` | Round logo in the home-page banner | Square, 640×640, transparent corners |
+| `lotus-mark.webp` | Small lotus in the header and footer | Square, 144×144 |
 | `collection-1.jpg` … `collection-6.jpg` | Collection cards (in the order listed in `site-config.js`) | Portrait 4:5, ~800×1000 |
 | `about.jpg` | Our Story (home + About page) | Portrait 4:5, ~1000×1250 |
-| `og-image.jpg` | Link preview on WhatsApp/Instagram/Facebook | Exactly 1200×630, with your logo or best saree photo |
-| `apple-touch-icon.png` | iPhone home-screen icon | 180×180 |
-| `favicon-32.png` and `/favicon.svg` | Browser tab icon | 32×32 / square SVG |
+| `og-image.jpg` | Link preview on WhatsApp/Instagram/Facebook (logo on maroon) | Exactly 1200×630 |
+| `apple-touch-icon.png` | iPhone home-screen icon (lotus) | 180×180 |
+| `favicon-32.png`, `favicon-192.png` | Browser tab icon (lotus) | 32×32 / 192×192 |
 
-Keep JPGs under ~300 KB each so the site stays fast on phones. Exporting from your phone or Canva at "medium" quality is usually enough. When you replace a photo, also update its `alt` text (in `site-config.js` for collections, or in the HTML for the hero and about photos) to describe the photo.
+Keep JPGs under ~300 KB each so the site stays fast on phones. Exporting from your phone or Canva at "medium" quality is usually enough. When you replace a photo, also update its `alt` text (in `site-config.js` for collections, or in the HTML for the about photo) to describe the photo.
 
 ## Text that lives in the HTML
 
