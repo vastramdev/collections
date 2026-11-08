@@ -161,7 +161,7 @@ a:hover { color: var(--maroon-deep); }
   position: relative; isolation: isolate; overflow: hidden;
   color: var(--cream);
   background:
-    radial-gradient(circle at 72% 45%, rgba(201, 162, 90, 0.22), transparent 38%),
+    radial-gradient(circle at 28% 45%, rgba(201, 162, 90, 0.22), transparent 38%),
     radial-gradient(ellipse at 15% 110%, rgba(107, 30, 46, 0.9), transparent 60%),
     var(--maroon-deep);
 }
@@ -184,9 +184,9 @@ a:hover { color: var(--maroon-deep); }
 .hero .eyebrow { color: var(--gold); }
 .hero__tagline { font-size: clamp(1.1rem, 3.5vw, 1.35rem); max-width: 34ch; margin: 0 auto 1.75rem; }
 .hero .btn-row { justify-content: center; }
-@media (min-width: 52rem) {
-  .hero__content { grid-template-columns: 1.15fr 1fr; justify-items: start; text-align: left; align-items: center; gap: 3rem; }
-  .hero__logo { order: 2; justify-self: center; width: min(100%, 25rem); }
+@media (min-width: 40rem) {
+  .hero__content { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); justify-items: start; text-align: left; align-items: center; gap: clamp(2rem, 5vw, 4rem); }
+  .hero__logo { justify-self: center; width: min(100%, 25rem); }
   .hero__tagline { margin-inline: 0; }
   .hero .btn-row { justify-content: flex-start; }
 }
@@ -461,3 +461,4 @@ a:hover { color: var(--maroon-deep); }
   .card__media img, .product-card__media img { transition: none; }
   .card:hover .card__media img, .product-card a:hover .product-card__media img { transform: none; }
 }
+section[id] { scroll-margin-top: 4.5rem; }

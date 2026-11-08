@@ -62,8 +62,8 @@ window.SITE_CONFIG = {
     {
       name: "Banarasi Silk Sarees",
       description: "Silks from Varanasi, known for their intricate woven brocade.",
-      image: "images/collection-3.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the Banarasi silk sarees collection", // TODO: describe your photo
+      image: "images/collection-3.jpg",
+      imageAlt: "Teal Banarasi silk saree with gold zari flowers, a woven border and matching blouse piece",
       squareUrl: "https://vastramusa.square.site/shop/banarasi-silk-sarees/GIT67QA3TM2V6HSCLSQM4QQ6",
       productNote: "Comes with a stitched blouse, ready to wear.",
     },
