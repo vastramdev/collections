@@ -31,6 +31,10 @@ SITE_URL = "https://vastramusa.com"
 SQUARE_API = "https://connect.squareup.com/v2"
 SQUARE_VERSION = "2025-01-23"
 
+# Write e.g. "No stitched blouse" or "without stitched blouse" in a Square description
+# to show that on the item page instead of the collection's stitched-blouse note.
+NO_BLOUSE = re.compile(r"\b(no|without)\s+(a\s+)?stitched\s+blouse|blouse\s+(is\s+)?not\s+stitched", re.I)
+
 STATIC_PAGES = ["", "shop.html", "about.html", "care.html", "faq.html", "contact.html"]
 
 
@@ -156,6 +160,7 @@ def build_products(objects, stock):
             "available": bool(in_stock),
             "quantity": None if None in quantities else sum(quantities),
             "variations": variations if len(variations) > 1 else [],
+            "noStitchedBlouse": bool(NO_BLOUSE.search(d.get("description_plain") or d.get("description") or "")),
             "squareUrl": d.get("ecom_uri") or "",
             "createdAt": o.get("created_at") or o.get("updated_at") or "",
         })
@@ -281,6 +286,7 @@ def render_product_page(template, p):
         "category_ids": esc(" ".join(p["categoryIds"])),
         "square_url": esc(p["squareUrl"]),
         "sold_out": "true" if not p["available"] else "false",
+        "no_blouse": "true" if p.get("noStitchedBlouse") else "false",
         "thumbs": thumbs,
         "stock": stock,
         "options": options,

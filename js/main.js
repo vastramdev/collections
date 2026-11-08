@@ -66,6 +66,26 @@
     el.hidden = !v;
   });
 
+  /* ---- Offer banner (all pages) ---- */
+  var promo = cfg.promo || {};
+  if (promo.text) {
+    var p = String(promo.until || "").split("-").map(Number);
+    var lastDay = promo.until ? new Date(p[0], p[1] - 1, p[2], 23, 59, 59) : null;
+    if (!lastDay || new Date() <= lastDay) {
+      var bar = document.createElement("div");
+      bar.className = "promo-bar";
+      var strong = document.createElement("strong");
+      strong.textContent = promo.text;
+      bar.appendChild(strong);
+      if (promo.details) {
+        var small = document.createElement("span");
+        small.textContent = promo.details;
+        bar.appendChild(small);
+      }
+      document.body.insertBefore(bar, document.querySelector(".site-header"));
+    }
+  }
+
   /* ---- Brand story paragraphs (About page) ---- */
   each("[data-story]", function (el) {
     if (!Array.isArray(cfg.story) || !cfg.story.length) return;

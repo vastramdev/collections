@@ -25,10 +25,18 @@ window.SITE_CONFIG = {
   // DRAFT written from our Instagram posts. Edit freely, especially the first paragraph.
   story: [
     "Vastram Collections began in Johns Creek, Georgia, with a simple idea: bring authentic handwoven sarees directly from weavers to customers. No middlemen, so you get better prices and the artisans get fair pay for their craft.",
-    "Most of our sarees come straight from the looms of Kanchipuram, along with soft silks, semi silks, Banarasi silks and half sarees. We choose every piece for its weave, its colours and its quality, and most sarees come with a ready-stitched blouse, so they're ready to wear for weddings, festivals, poojas and every celebration in between.",
+    "Most of our sarees come straight from the looms of Kanchipuram, along with soft silks, semi silks, Banarasi silks and half sarees. We choose every piece for its weave, its colours and its quality, and most come with a ready-stitched blouse, so they're ready to wear for weddings, festivals, poojas and every celebration in between. We also keep sarees without a stitched blouse, which many families prefer as an offering to the temple.",
     "You'll find us at community celebrations around Atlanta, in our WhatsApp community, and now online. Planning a wedding or a special occasion? Tell us what you're looking for, and we'll source it from our weavers and have it to you on time.",
     "To us, a saree is more than a saree. It's a piece of tradition, a story of our weavers, and a celebration of you. Thank you for supporting traditional weavers."
   ],
+
+  /* ---------- Offer banner (top of every page) ---------- */
+  // Disappears automatically the day after "until". Set text to "" to hide it sooner.
+  promo: {
+    text: "Buy one, get 20% off your 2nd saree of equal or higher value",
+    details: "Until Dec 31, 2026. Can't be combined with other offers.",
+    until: "2026-12-31"
+  },
 
   // Shown in the home page banner. "" hides it.
   priceNote: "Sarees with stitched blouse, starting at $49.99",
@@ -46,7 +54,9 @@ window.SITE_CONFIG = {
   //  - imageAlt: describe the photo for screen readers, e.g. "Model wearing a red silk saree with gold border"
   //  - squareUrl: the matching category page in your Square store. The long code at the end
   //    tells the site which Square category belongs to this collection.
-  //  - productNote: optional line shown on every item page in this collection
+  //  - productNote: optional line shown on every item page in this collection.
+  //    If a Square item description says "No stitched blouse", its page says
+  //    "Comes without a stitched blouse." instead.
   collections: [
     {
       name: "Silk Sarees",
@@ -100,9 +110,9 @@ window.SITE_CONFIG = {
   /* ---------- Contact ---------- */
   email: "vastramatlanta@gmail.com",
   // Full number with country code, any format, e.g. "+1 470 555 0123". "" hides phone links.
-  phone: "", // TODO: phone number
+  phone: "+1 317 644 9667",
   // WhatsApp number (usually the same as phone). "" hides WhatsApp buttons.
-  whatsapp: "", // TODO: WhatsApp number
+  whatsapp: "+1 317 644 9667",
   whatsappMessage: "Hi Vastram Collections! I have a question about your sarees.",
   // Invite link to your WhatsApp group (https://chat.whatsapp.com/...). "" hides the "Join our group" buttons.
   whatsappGroup: "https://chat.whatsapp.com/KsGO15JH5I3EykQa9",

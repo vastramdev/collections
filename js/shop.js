@@ -249,8 +249,9 @@
       var crumb = document.querySelector("[data-category-link]");
       if (crumb) crumb.href = "/shop.html?c=" + collection.slug;
       var note = document.querySelector("[data-collection-note]");
-      if (note && collection.productNote) {
-        note.textContent = collection.productNote;
+      var noBlouse = article.getAttribute("data-no-blouse") === "true";
+      if (note && (noBlouse || collection.productNote)) {
+        note.textContent = noBlouse ? "Comes without a stitched blouse." : collection.productNote;
         note.hidden = false;
       }
     }
