@@ -4,21 +4,18 @@
  *
  * Hooks used in the HTML:
  *   data-text="key"      -> element text is replaced with config[key]
- *   data-link="kind"     -> href is set (kind: shop, email, phone, whatsapp, instagram, facebook)
+ *   data-link="kind"     -> href is set (kind: email, phone, whatsapp, instagram, facebook, draping)
  *   data-requires="key"  -> element is hidden when config[key] is empty
  */
 (function () {
   "use strict";
 
   var cfg = window.SITE_CONFIG || {};
-  var FALLBACK_SHOP = "contact.html";
-
   function digits(s) {
     return String(s || "").replace(/\D/g, "");
   }
 
   var links = {
-    shop: cfg.squareStoreUrl || FALLBACK_SHOP,
     email: cfg.email ? "mailto:" + cfg.email : "",
     phone: cfg.phone ? "tel:+" + digits(cfg.phone) : "",
     whatsapp: cfg.whatsapp
@@ -68,13 +65,6 @@
     el.hidden = !v;
   });
 
-  // Shop buttons say "opening soon" until the Square store URL is set.
-  if (!cfg.squareStoreUrl) {
-    each("[data-link='shop'][data-soon-label]", function (el) {
-      el.textContent = el.getAttribute("data-soon-label");
-    });
-  }
-
   /* ---- Brand story paragraphs (About page) ---- */
   each("[data-story]", function (el) {
     if (!Array.isArray(cfg.story) || !cfg.story.length) return;
@@ -91,10 +81,17 @@
   if (grid && Array.isArray(cfg.collections) && cfg.collections.length) {
     grid.textContent = "";
     cfg.collections.forEach(function (c) {
-      var href = c.squareUrl || links.shop;
+      var href = "/shop.html?c=" + String(c.name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
       var li = document.createElement("li");
       li.className = "card";
+
+      // The whole card is clickable; the photo links too.
+      var imgLink = document.createElement("a");
+      imgLink.className = "card__media";
+      imgLink.href = href;
+      imgLink.tabIndex = -1;
+      imgLink.setAttribute("aria-hidden", "true");
 
       var img = document.createElement("img");
       img.src = c.image;
@@ -115,14 +112,14 @@
 
       var a = document.createElement("a");
       a.className = "btn btn--small";
-      a.textContent = cfg.squareStoreUrl || c.squareUrl ? "Shop " + c.name : "Ask about " + c.name;
-      a.setAttribute("aria-label", a.textContent);
-      setLink(a, href);
+      a.textContent = "Shop " + c.name;
+      a.href = href;
 
       body.appendChild(h3);
       body.appendChild(p);
       body.appendChild(a);
-      li.appendChild(img);
+      imgLink.appendChild(img);
+      li.appendChild(imgLink);
       li.appendChild(body);
       grid.appendChild(li);
     });

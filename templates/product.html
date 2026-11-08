@@ -1,0 +1,138 @@
+<!doctype html>
+<!-- Template for item pages. scripts/build_shop.py fills in the values in double braces from Square. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{name}} | Vastram Collections</title>
+  <meta name="description" content="{{summary}}">
+  <link rel="canonical" href="{{url}}">
+  <meta name="theme-color" content="#4a1320">
+
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="Vastram Collections">
+  <meta property="og:title" content="{{name}} · {{price}}">
+  <meta property="og:description" content="{{summary}}">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:image" content="{{image_abs}}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Vastram <span>Collections</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span> Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/shop.html" aria-current="page">Shop</a></li>
+          <li><a href="/about.html">Our Story</a></li>
+          <li><a href="/care.html">Care &amp; Draping</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/shop.html">Shop</a> <span aria-hidden="true">/</span>
+        <a href="/shop.html" data-category-link>{{category}}</a>
+      </nav>
+    </div>
+
+    <article class="container product" data-category-ids="{{category_ids}}" data-sold-out="{{sold_out}}">
+      <div class="gallery">
+        <img class="gallery__main" src="{{image}}" alt="{{name}}" width="1000" height="1250" fetchpriority="high">
+        {{thumbs}}
+      </div>
+
+      <div class="product__info">
+        <span class="eyebrow">{{category}}</span>
+        <h1>{{name}}</h1>
+        <p class="product__price">{{price}}</p>
+        {{stock}}
+        {{options}}
+
+        <div class="btn-row product__actions">
+          <a class="btn btn--gold btn--wide" href="/contact.html" data-buy="{{square_url}}">Buy now</a>
+          <a class="btn btn--outline btn--wide" href="#" data-ask hidden>Ask about this on WhatsApp</a>
+        </div>
+
+        <ul class="perks">
+          <li data-collection-note hidden></li>
+          <li data-text="shippingCost">Shipping is a flat $15.99 per order.</li>
+          <li data-requires="pickupArea">Free local pickup in <span data-text="pickupArea">Johns Creek, GA</span></li>
+          <li>Secure checkout with Square</li>
+        </ul>
+
+        <div class="product__desc">{{description}}</div>
+      </div>
+    </article>
+
+    <section class="section" id="related" aria-labelledby="related-title" hidden>
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">More to love</span>
+          <h2 id="related-title">You may also like</h2>
+        </div>
+        <ul class="products" id="related-grid"></ul>
+      </div>
+    </section>
+  </main>
+
+  <div class="zari" role="presentation"></div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Vastram Collections</h2>
+          <p data-text="tagline">Handpicked sarees, straight from India's weavers to you.</p>
+          <p data-requires="pickupArea">Local pickup in <span data-text="pickupArea">Johns Creek, GA</span></p>
+        </div>
+        <nav aria-label="Footer">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="/shop.html">Shop</a></li>
+            <li><a href="/about.html">Our story</a></li>
+            <li><a href="/care.html">Care &amp; draping</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:vastramatlanta@gmail.com" data-link="email" data-text="email">vastramatlanta@gmail.com</a></li>
+            <li data-requires="whatsapp"><a href="#" data-link="whatsapp">WhatsApp</a></li>
+            <li data-requires="instagram"><a href="#" data-link="instagram">Instagram <span data-text="instagramHandle"></span></a></li>
+            <li data-requires="facebook"><a href="#" data-link="facebook">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; <span data-text="year">2026</span> <span data-text="legalName">Vastram Collections</span>. Sarees imported from India.</p>
+    </div>
+  </footer>
+
+  <script src="/site-config.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/shop.js"></script>
+</body>
+</html>

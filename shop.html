@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shop | Vastram Collections</title>
+  <meta name="description" content="Shop handpicked silk, soft silk, Banarasi and silk cotton sarees, half sarees and men's traditional wear. Ships across the US, with local pickup in Johns Creek, GA.">
+  <link rel="canonical" href="https://vastramusa.com/shop.html">
+  <meta name="theme-color" content="#4a1320">
+
+  <!-- Link previews (WhatsApp, Instagram, Facebook, iMessage) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vastram Collections">
+  <meta property="og:title" content="Shop sarees — Vastram Collections">
+  <meta property="og:description" content="Shop handpicked silk, soft silk, Banarasi and silk cotton sarees, half sarees and men's traditional wear. Ships across the US, with local pickup in Johns Creek, GA.">
+  <meta property="og:url" content="https://vastramusa.com/shop.html">
+  <meta property="og:image" content="https://vastramusa.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vastram Collections">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="./">Vastram <span>Collections</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span> Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="shop.html" aria-current="page">Shop</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="care.html">Care &amp; Draping</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Shop</span>
+        <h1 id="shop-title">All sarees &amp; more</h1>
+        <p id="shop-intro">Every piece we have right now, handpicked from India's weavers. Most are one of a kind, so when a saree is gone, it's gone.</p>
+      </div>
+    </section>
+    <div class="zari" role="presentation"></div>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div id="shop-tools" class="shop-tools">
+          <div id="shop-filters" class="chips" role="group" aria-label="Filter by collection"></div>
+          <div class="shop-tools__row">
+            <p id="shop-count" class="shop-count" aria-live="polite"></p>
+            <label class="toggle"><input type="checkbox" id="shop-sold" checked> Show sold out</label>
+            <label class="select">Sort
+              <select id="shop-sort">
+                <option value="new">Newest</option>
+                <option value="low">Price: low to high</option>
+                <option value="high">Price: high to low</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <ul id="shop-grid" class="products"></ul>
+
+        <div id="shop-nomatch" class="shop-message" hidden>
+          <h2>Nothing here right now</h2>
+          <p>New pieces arrive often. Tell us what you're looking for and we'll let you know when it comes in.</p>
+          <a class="btn btn--outline" href="contact.html">Contact us</a>
+        </div>
+
+        <div id="shop-empty" class="shop-message" hidden>
+          <h2>Our shop is being stocked</h2>
+          <p>In the meantime, browse each collection in our online store.</p>
+          <ul id="shop-empty-links" class="btn-row"></ul>
+        </div>
+        <noscript><p>Please enable JavaScript to browse the shop, or <a href="contact.html">contact us</a>.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <div class="zari" role="presentation"></div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Vastram Collections</h2>
+          <p data-text="tagline">Handpicked sarees, straight from India's weavers to you.</p>
+          <p data-requires="pickupArea">Local pickup in <span data-text="pickupArea">Johns Creek, GA</span></p>
+        </div>
+        <nav aria-label="Footer">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">Our story</a></li>
+            <li><a href="care.html">Care &amp; draping</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:vastramatlanta@gmail.com" data-link="email" data-text="email">vastramatlanta@gmail.com</a></li>
+            <li data-requires="whatsapp"><a href="#" data-link="whatsapp">WhatsApp</a></li>
+            <li data-requires="instagram"><a href="#" data-link="instagram">Instagram <span data-text="instagramHandle"></span></a></li>
+            <li data-requires="facebook"><a href="#" data-link="facebook">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; <span data-text="year">2026</span> <span data-text="legalName">Vastram Collections</span>. Sarees imported from India.</p>
+    </div>
+  </footer>
+
+  <script src="site-config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
