@@ -100,7 +100,7 @@ window.SITE_CONFIG = {
   whatsapp: "", // TODO: WhatsApp number
   whatsappMessage: "Hi Vastram Collections! I have a question about your sarees.",
   // Invite link to your WhatsApp group (https://chat.whatsapp.com/...). "" hides the "Join our group" buttons.
-  whatsappGroup: "", // TODO: paste the group invite link
+  whatsappGroup: "https://chat.whatsapp.com/KsGO15JH5I3EykQa9",
 
   /* ---------- Social ---------- */
   instagram: "vastramatlanta", // without the @. "" hides Instagram links.
