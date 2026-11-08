@@ -305,6 +305,9 @@ def main():
         products = sample_products()
     elif token:
         objects = fetch_catalog(token)
+        kinds = [o["type"] for o in objects]
+        print("Square catalog: %d items, %d categories, %d photos."
+              % (kinds.count("ITEM"), kinds.count("CATEGORY"), kinds.count("IMAGE")))
         variation_ids = [v["id"] for o in objects if o["type"] == "ITEM"
                          for v in o.get("item_data", {}).get("variations", [])]
         products = build_products(objects, fetch_stock(token, variation_ids))
