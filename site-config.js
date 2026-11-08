@@ -61,16 +61,16 @@ window.SITE_CONFIG = {
     {
       name: "Silk Sarees",
       description: "Rich silks with classic borders for weddings, festivals and family celebrations.",
-      image: "images/collection-1.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the silk sarees collection", // TODO: describe your photo
+      image: "images/collection-1.jpg",
+      imageAlt: "Folded orange Kanjeevaram silk saree with a wide gold zari border and green edge",
       squareUrl: "https://vastramusa.square.site/shop/silk-sarees/EMB3WMXEXNX32VGND4QKDD27",
       productNote: "Comes with a stitched blouse, ready to wear.",
     },
     {
       name: "Soft Silk Sarees",
       description: "Lightweight silks that drape easily and stay comfortable all day.",
-      image: "images/collection-2.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the soft silk sarees collection", // TODO: describe your photo
+      image: "images/collection-2.jpg",
+      imageAlt: "Wine purple soft silk saree with gold motifs and a dark green border with gold paisleys",
       squareUrl: "https://vastramusa.square.site/shop/soft-silk-sarees/CA4C6P63QZF4DARALWMONTVD",
       productNote: "Comes with a stitched blouse, ready to wear.",
     },
@@ -85,16 +85,16 @@ window.SITE_CONFIG = {
     {
       name: "Silk Cotton Sarees",
       description: "The sheen of silk with the ease of cotton, for work, poojas and everyday occasions.",
-      image: "images/collection-4.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the silk cotton sarees collection", // TODO: describe your photo
+      image: "images/collection-4.jpg",
+      imageAlt: "Mustard yellow saree with pink and gold borders, laid out with its stitched pink blouse",
       squareUrl: "https://vastramusa.square.site/shop/silk-cotton/2EOOSOFPVNGTQ5IGWRMBTURX",
       productNote: "Comes with a stitched blouse, ready to wear.",
     },
     {
       name: "Half Sarees",
       description: "Silk and semi silk langa voni (pavadai davani) sets with stitched skirt and blouse, for festivals, functions and coming-of-age celebrations.",
-      image: "images/collection-5.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the half sarees collection", // TODO: describe your photo
+      image: "images/collection-5.jpg",
+      imageAlt: "Half saree on a mannequin: gold skirt with wine border, embroidered purple blouse and wine davani",
       squareUrl: "https://vastramusa.square.site/shop/half-sarees/BQ7RB32CPGR4DJZDY5HVRVJG",
       productNote: "Comes as a full set: stitched blouse, skirt (pavadai) and davani.",
     },

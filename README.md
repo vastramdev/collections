@@ -52,7 +52,7 @@ In Square Online, open your site, click into a category on the live store, and c
 
 ## Photos to replace (`images/`)
 
-The logo images are made from the Vastram Collections logo. The collection and Our Story photos are still placeholders, labeled **PLACEHOLDER** on the image. Replace each file with a photo of **the same filename**, or change the filename in `site-config.js` / the HTML.
+The logo images are made from the Vastram Collections logo. Collection photos come from our Instagram. The men's collection photo (`collection-6.jpg`) is still a placeholder, labeled **PLACEHOLDER** on the image. Replace each file with a photo of **the same filename**, or change the filename in `site-config.js` / the HTML.
 
 | File | Used for | Shape / size |
 | --- | --- | --- |
