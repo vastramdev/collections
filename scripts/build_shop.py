@@ -199,7 +199,7 @@ def sample_products():
                             "Saree length 5.5 m plus a 0.8 m blouse piece, stitched to size 38 (can be let out to 42)."],
             "category": names[key], "categoryIds": [cats[key]],
             "price": price, "priceMax": price,
-            "images": ["/images/collection-%d.jpg" % img, "/images/about.jpg", "/images/hero.jpg"],
+            "images": ["/images/collection-%d.jpg" % img, "/images/about.jpg"],
             "available": qty is None or qty > 0, "quantity": qty,
             "variations": variations, "squareUrl": "",
             "createdAt": "2026-11-%02dT00:00:00Z" % (20 - i),
