@@ -22,6 +22,7 @@
       ? "https://wa.me/" + digits(cfg.whatsapp) +
         (cfg.whatsappMessage ? "?text=" + encodeURIComponent(cfg.whatsappMessage) : "")
       : "",
+    whatsappGroup: cfg.whatsappGroup || "",
     instagram: cfg.instagram ? "https://www.instagram.com/" + cfg.instagram.replace(/^@/, "") + "/" : "",
     facebook: cfg.facebookUrl || "",
     draping: cfg.drapingGuideUrl || ""

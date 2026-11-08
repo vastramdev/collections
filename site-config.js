@@ -99,9 +99,11 @@ window.SITE_CONFIG = {
   // WhatsApp number (usually the same as phone). "" hides WhatsApp buttons.
   whatsapp: "", // TODO: WhatsApp number
   whatsappMessage: "Hi Vastram Collections! I have a question about your sarees.",
+  // Invite link to your WhatsApp group (https://chat.whatsapp.com/...). "" hides the "Join our group" buttons.
+  whatsappGroup: "", // TODO: paste the group invite link
 
   /* ---------- Social ---------- */
-  instagram: "", // TODO: Instagram handle without the @, e.g. "vastramcollections". "" hides Instagram links.
+  instagram: "vastramatlanta", // without the @. "" hides Instagram links.
   facebookUrl: "", // optional, full URL
 
   /* ---------- Care page ---------- */
