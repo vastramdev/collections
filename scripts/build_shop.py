@@ -189,7 +189,7 @@ def sample_products():
         ("Lavender Silk Cotton with Checks", "cotton", 8900, 4, 3),
         ("Sea Green Silk Cotton", "cotton", 7900, 2, 0),
         ("Magenta and Green Pavadai Davani Set", "half", 15900, 5, 1),
-        ("Cream Silk Dhoti and Kurta Set", "men", 9900, 6, None),
+        ("Sea Green Couple Combo: Shirt, Dhoti and Saree", "men", 9900, 6, None),
     ]
     out = []
     for i, (name, key, price, img, qty) in enumerate(rows):

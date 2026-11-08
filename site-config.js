@@ -99,11 +99,13 @@ window.SITE_CONFIG = {
       productNote: "Comes as a full set: stitched blouse, skirt (pavadai) and davani.",
     },
     {
-      name: "Men's Dhotis, Kurtas & Shirts",
-      description: "Traditional wear for him, plus couple combos: a shirt and dhoti that match her saree.",
-      image: "images/collection-6.jpg", // TODO: replace photo
-      imageAlt: "Placeholder image for the men's dhotis, kurtas and shirts collection", // TODO: describe your photo
-      squareUrl: "https://vastramusa.square.site/shop/men/LI43L7DGUOBH4N2UJVWQXNU2"
+      name: "Couple Combos",
+      description: "Matching sets for him and her: a silk saree with a shirt and dhoti in the same colours, for weddings, festivals and family functions.",
+      image: "images/collection-6.jpg",
+      imageAlt: "Couple in a matching set: he wears a sea green shirt with a white dhoti, she wears a teal silk saree with silver zari",
+      // Uses the Square category that was called "Men". Rename it to "Couple Combos" in Square; the link keeps working.
+      squareUrl: "https://vastramusa.square.site/shop/men/LI43L7DGUOBH4N2UJVWQXNU2",
+      productNote: "Shirt, dhoti and matching saree. The saree comes without a stitched blouse."
     }
   ],
 
