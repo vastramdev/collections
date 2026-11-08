@@ -19,14 +19,19 @@ window.SITE_CONFIG = {
   tagline: "Handpicked sarees, straight from India's weavers to you.",
 
   // Short teaser on the home page (1–2 sentences).
-  storyTeaser: "We work directly with weavers in India to bring their sarees to you — no middlemen, just beautiful handwork and fair prices for the artisans who make it.",
+  storyTeaser: "We bring authentic handwoven sarees directly from weavers in India to you, with no middlemen. Pure silks, timeless traditions, beautifully yours.",
 
   // Full story on the About page. Each item in the list becomes its own paragraph.
+  // DRAFT written from our Instagram posts. Edit freely, especially the first paragraph.
   story: [
-    "TODO: Placeholder brand story. Tell visitors who you are and how Vastram Collections started.",
-    "TODO: Where in India your sarees come from, and how you choose each piece.",
-    "TODO: What you hope customers feel when they wear a Vastram saree."
+    "Vastram Collections began in Johns Creek, Georgia, with a simple idea: bring authentic handwoven sarees directly from weavers to customers. No middlemen, so you get better prices and the artisans get fair pay for their craft.",
+    "Most of our sarees come straight from the looms of Kanchipuram, along with soft silks, semi silks, Banarasi silks and half sarees. We choose every piece for its weave, its colours and its quality, and most sarees come with a ready-stitched blouse, so they're ready to wear for weddings, festivals, poojas and every celebration in between.",
+    "You'll find us at community celebrations around Atlanta, in our WhatsApp community, and now online. Planning a wedding or a special occasion? Tell us what you're looking for, and we'll source it from our weavers and have it to you on time.",
+    "To us, a saree is more than a saree. It's a piece of tradition, a story of our weavers, and a celebration of you. Thank you for supporting traditional weavers."
   ],
+
+  // Shown in the home page banner. "" hides it.
+  priceNote: "Sarees with stitched blouse, starting at $49.99",
 
   /* ---------- Online store (Square) ---------- */
   // Your Square Online store home page, e.g. "https://vastramcollections.square.site"
@@ -77,7 +82,7 @@ window.SITE_CONFIG = {
     },
     {
       name: "Half Sarees",
-      description: "Langa voni (pavadai davani) sets for festivals, functions and coming-of-age celebrations.",
+      description: "Silk and semi silk langa voni (pavadai davani) sets with stitched skirt and blouse, for festivals, functions and coming-of-age celebrations.",
       image: "images/collection-5.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the half sarees collection", // TODO: describe your photo
       squareUrl: "https://vastramusa.square.site/shop/half-sarees/BQ7RB32CPGR4DJZDY5HVRVJG",
@@ -85,7 +90,7 @@ window.SITE_CONFIG = {
     },
     {
       name: "Men's Dhotis, Kurtas & Shirts",
-      description: "Traditional wear for him, ready for festivals, weddings and family functions.",
+      description: "Traditional wear for him, plus couple combos: a shirt and dhoti that match her saree.",
       image: "images/collection-6.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the men's dhotis, kurtas and shirts collection", // TODO: describe your photo
       squareUrl: "https://vastramusa.square.site/shop/men/LI43L7DGUOBH4N2UJVWQXNU2"
