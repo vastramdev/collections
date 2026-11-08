@@ -81,7 +81,7 @@ window.SITE_CONFIG = {
       image: "images/collection-5.jpg", // TODO: replace photo
       imageAlt: "Placeholder image for the half sarees collection", // TODO: describe your photo
       squareUrl: "https://vastramusa.square.site/shop/half-sarees/BQ7RB32CPGR4DJZDY5HVRVJG",
-      productNote: "", // TODO: e.g. "Skirt, blouse and davani included." (shown on each half saree page)
+      productNote: "Comes as a full set: stitched blouse, skirt (pavadai) and davani.",
     },
     {
       name: "Men's Dhotis, Kurtas & Shirts",
